@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Logo */
+ #logo_header img {
+    padding: 10px;
+    width: 70px;
+    height: auto;
+    animation: spin 5s linear infinite;
+    background-color: rgb(77, 77, 131);
+}
+
+#logo_header img:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del logo en un 20% */
+    transition: transform 0.3s ease; /* Añade una transición suave */
+    background-color: rgb(231, 219, 105);
+
+}
+
+#header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(32, 32, 56);
+    color: white;
+}
